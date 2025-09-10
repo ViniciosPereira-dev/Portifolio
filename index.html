@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Vinicios Rosa</title>
+
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js" defer></script>    
+    <script src="script.js" defer></script>
+
+    <!--FontAwsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <button class="menu-btn" id="menu_btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <h2 id="logo"><a href="#">Vinicios Rosa</a></h2>
+        <!--Desktop versao-->
+
+      <ul class="list_header desktop">
+        <li class="itens_list"><a href="#" class="links_list"><i class="fa-solid fa-house" title="Apresentação"></i></a></li>
+        <li class="itens_list"><a href="#habilidades" class="links_list"><i class="fa-solid fa-brain" title="Habilidades"></i></a></li>
+        <li class="itens_list"><a href="#formacoes" class="links_list"><i class="fas fa-graduation-cap" title="Formações"></i></a></li>
+        <li class="itens_list"><a href="#projetos" class="links_list"><i class="fas fa-code" title="Projetos"></i></a></li>
+        <li class="itens_list"><a href="#" class="links_list"><i class="fas fa-moon" title="Tema"></i></a></li>
+      </ul>
+
+    </header>
+
+<aside class="sidebar_desktop">
+  <img src="assets/Eu.jpg" alt="Foto de Vinicios">
+  <h2>Vinicios Rosa</h2>
+  <p>Estudante de Desenvolvimento de Software Multiplataforma (DSM), desenvolvendo soluções web e aplicativos funcionais.</p>
+  <p>📍 Votorantim, SP</p>
+  <p>🎓 Formação: DSM - FATEC Votorantim</p>
+  <p>💻 Tecnologias: HTML, CSS, JavaScript, React, Sql, Git&Github, Java</p>
+  <ul class="redes_perfil">
+      <li><a href="https://github.com/ViniciosPereira-dev" target="_blank"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/vinicios-rosa-182360351/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="mailto:viniciosrp.dev@hotmail.com"><i class="fas fa-envelope"></i></a></li>
+  </ul>
+</aside>
+
+
+
+
+
+    <nav class="sidebar" id="sidebar">
+        <button class="close-btn" id="close_btn"><i class="fa-solid fa-xmark"></i></button>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-house"></i> <span>Apresentação</span>  </a></li>
+          <li><a href="#habilidades"><i class="fa-solid fa-brain"></i> <span>Habilidades</span> </a></li>
+          <li><a href="#formacoes"><i class="fas fa-graduation-cap"></i> <span>Formações</span> </a></li>
+          <li><a href="#projetos"><i class="fas fa-code"></i> <span>Projetos</span> </a></li>
+          <li><a href="" id="toggle-theme"><i class="fas fa-moon" id="theme-icon"></i> <span>Tema</span> </a></li>
+        </ul>
+    </nav>
+<main>
+  
+        <section id="apresentacao">
+            <h1>Olá, eu sou o <span>vinicios Rosa</span></h1>
+            <img src="assets/Eu.jpg" alt="Foto de vinicios">
+            <p>
+                Programador Front-end em formação, focado em criar experiências web funcionais e elegantes
+            </p>
+
+        <ul class="redes-sociais">
+            <li>
+            <a href="https://github.com/ViniciosPereira-dev" target="_blank">
+                <i class="fab fa-github" title="GitHub"></i>
+            </a>
+            </li>
+
+            <li>
+            <a href="https://www.linkedin.com/in/vinicios-rosa-182360351/" target="_blank">
+                <i class="fab fa-linkedin" title="LinkedIn"></i>
+            </a>
+            </li>
+        
+            <li>
+            <a href="mailto:viniciosrp.dev@hotmai.com" target="_blank" title="E-mail">
+                <i class="fas fa-envelope"></i>
+            </a>
+            </li>
+        </ul>
+            <div id="tecnologias">
+                <ul class="faixa-tecnologias">
+                <li><i class="fab fa-html5" title="HTML5"></i></li>
+                <li><i class="fab fa-css3-alt" title="CSS3"></i></li>
+                <li><i class="fab fa-js" title="JavaScript"></i></li>
+                <li><i class="fab fa-bootstrap" title="Bootstrap"></i></li>
+                </ul>
+
+                <ul class="faixa-tecnologias">
+                <li><i class="fab fa-react" title="React"></i></li>
+                <li><i class="fas fa-database" title="Sql"></i></li>
+                <li><i class="fab fa-git-alt" title="Git"></i></li>
+                <li><i class="fas fa-coffee" title="Java"></i></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="habilidades">
+  <div class="skills-container">
+    <h2>Habilidades</h2>
+    <div class="hard-skills">
+      <h3>Hard skills</h3>
+      <div class="skill">
+        <span class="skill_nome"><i class="fas fa-code"></i> HTML</span>
+        <div class="skill-barra">
+          <div class="skill-progresso" data-porcentagem="90"><span class="skill-porcentagem">90%</span></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span class="skill_nome"><i class="fas fa-code"></i> CSS</span>
+        <div class="skill-barra">
+          <div class="skill-progresso" data-porcentagem="75"><span class="skill-porcentagem">75%</span></div>
+        </div>
+      </div>
+
+       <div class="skill">
+        <span class="skill_nome"><i class="fas fa-code"></i> JavaScript</span>
+        <div class="skill-barra">
+          <div class="skill-progresso" data-porcentagem="70"><span class="skill-porcentagem">70%</span></div>
+        </div>
+      </div>
+
+       <div class="skill">
+        <span class="skill_nome"><i class="fas fa-code"></i> React.JS</span>
+        <div class="skill-barra">
+          <div class="skill-progresso" data-porcentagem="20"><span class="skill-porcentagem">20%</span></div>
+        </div>
+      </div>
+      <!-- restante das hard skills -->
+    </div>
+
+    <div class="soft-skills">
+      <h3>Soft skills</h3>
+      <div class="skill">
+        <span class="skill_nome"><i class="fas fa-comments"></i> Comunicação clara e objetiva</span>
+        <div class="skill-barra">
+          <div class="skill-progresso" data-porcentagem="100"><span class="skill-porcentagem">100%</span></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span class="skill_nome"><i class="fas fa-users"></i> Trabalho em equipe</span>
+        <div class="skill-barra">
+          <div class="skill-progresso" data-porcentagem="100"><span class="skill-porcentagem">100%</span></div>
+        </div>
+      </div>
+
+       <div class="skill">
+        <span class="skill_nome"><i class="fas fa-code"></i> Adaptabilidade e Flexibilidade</span>
+        <div class="skill-barra">
+          <div class="skill-progresso" data-porcentagem="95"><span class="skill-porcentagem">95%</span></div>
+        </div>
+      </div>
+
+       <div class="skill">
+        <span class="skill_nome"><i class="fas fa-code"></i> Resolução de problemas </span>
+        <div class="skill-barra">
+          <div class="skill-progresso" data-porcentagem="90"><span class="skill-porcentagem">90%</span></div>
+        </div>
+      </div>
+      <!-- restante das soft skills -->
+    </div>
+
+  </div>
+</section>
+
+            <div id="tecnologias_desktop">
+                <ul class="faixa-tecnologias">
+                <li><i class="fab fa-html5" title="HTML5"></i></li>
+                <li><i class="fab fa-css3-alt" title="CSS3"></i></li>
+                <li><i class="fab fa-js" title="JavaScript"></i></li>
+                <li><i class="fab fa-bootstrap" title="Bootstrap"></i></li>
+                <li><i class="fab fa-react" title="React"></i></li>
+                <li><i class="fas fa-database" title="Sql"></i></li>
+                <li><i class="fab fa-git-alt" title="Git"></i></li>
+                <li><i class="fas fa-coffee" title="Java"></i></li>
+                </ul>
+            </div>
+        </section>
+
+
+<section id="formacoes">
+  <h2>Formação & Cursos</h2>
+  <div class="formacoes-container">
+
+    <!-- Graduação -->
+    <div class="formacao-card">
+      <div class="ano">2025 - 2028 (em andamento)</div>
+      <div class="formacao-info">
+        <h3>FATEC Votorantim</h3>
+        <p>Técnologo em Desenvolvimento de Software Multiplataforma (DSM)</p>
+      </div>
+    </div>
+
+        <div class="formacao-card">
+      <div class="ano">2025 (em andamento)</div>
+      <div class="formacao-info">
+        <h3>Web Frontend Completo: HTML, CSS, JS, TS, React e Next.js</h3>
+        <p>Curso online – Udemy</p>
+      </div>
+    </div>
+
+
+    <!-- Ensino Fundamental -->
+    <div class="formacao-card">
+      <div class="ano">2013 - 2020</div>
+      <div class="formacao-info">
+        <h3>Azarias Mendes</h3>
+        <p>Ensino Fundamental</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="projetos">
+  <h2>Meus Projetos</h2>
+  <div class="projetos-grid">
+    
+    <div class="projeto-card">
+      <img src="assets/apis.png" alt="Projeto API">
+      <h3>Projeto API</h3>
+      <p>Consumo de API pública com integração em tempo real.</p>
+      <a href="https://github.com/ViniciosPereira-dev/clima-bandeiras" target="_blank" class="github-btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+
+    <div class="projeto-card">
+      <img src="assets/imc.png" alt="Calculadora IMC">
+      <h3>Calculadora IMC</h3>
+      <p>Aplicação simples em JavaScript para calcular o IMC.</p>
+      <a href="https://github.com/ViniciosPereira-dev/Calculadora-IMC" target="_blank" class="github-btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+
+    <div class="projeto-card">
+      <img src="assets/LandingPageRestaurante.png" alt="Landing Page Restaurante">
+      <h3>Landing Page Restaurante</h3>
+      <p>Landing Page responsiva para restaurante fictício.</p>
+      <a href="https://github.com/ViniciosPereira-dev/Landing-Page" target="_blank" class="github-btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+    <footer class="footer">
+        <p>Vinicios Rosa | Dev </p>
+        <div class="footer-socials">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+  </footer>
+
+   <!-- WHATSAPP FIXO -->
+  <div class="container_whatsapp">
+    <a href="https://wa.me/5515998343932" target="_blank">
+      <div id="animacao-telefone" style="width:80px; height:80px; cursor:pointer;"></div>
+    </a>
+  </div>
+    
+</body>
+
