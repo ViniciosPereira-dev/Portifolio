@@ -1316,7 +1316,7 @@ main{
 
 @media (min-width:1024px) {
   body{
-  display: block; /* deixa como padrão */
+  display: block; 
   min-height: 100vh;
   }
    header {
@@ -1371,12 +1371,12 @@ main{
   main {
     max-width: 1200px;
     padding: 1rem;
-    margin-left: 300px;
+    margin-left: 400px;
     margin-top: 60px;
-
   }
   #apresentacao{
     display: none;
+
   }
 
   .skills-container{
@@ -1384,6 +1384,7 @@ main{
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-bottom: 2rem;
+
   }
 
   .skills-container h2 {
