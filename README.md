@@ -9,7 +9,7 @@ O objetivo é compartilhar minha jornada como desenvolvedor e facilitar o contat
 
 <h2 align="center">📸 Preview do Projeto</h2>
 <p align="center">
-  <img src="assets/preview.png" alt="Preview do Projeto" width="500">
+  <img src="assets/preview.png" alt="Preview do Projeto" width="700">
 </p>
   
 🛠️ Tecnologias Utilizadas
