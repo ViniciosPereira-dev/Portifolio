@@ -5,7 +5,8 @@ Este projeto foi desenvolvido para apresentar minhas habilidades, formações e 
 
 O objetivo é compartilhar minha jornada como desenvolvedor e facilitar o contato para oportunidades de estágio e networking.
 
-🔗 Acesse o projeto online: Clique aqui
+## 🚀 Acesse o projeto online
+🔗 [Clique aqui para acessar o site](https://viniciospereira-dev.github.io/Portifolio/)
 
 <h2 align="center">📸 Preview do Projeto</h2>
 <p align="center">
