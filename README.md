@@ -17,13 +17,9 @@ O objetivo é compartilhar minha jornada como desenvolvedor e facilitar o contat
 🛠️ Tecnologias Utilizadas
 
 HTML5 – Estrutura do site
-
 CSS3 – Estilização responsiva e modo dark/light
-
 JavaScript – Interatividade e animações
-
 Bootstrap & Font Awesome – Ícones e grid system
-
 Lottie Web – Animação do botão de WhatsApp
 
 ✨ Funcionalidades
@@ -34,10 +30,14 @@ Lottie Web – Animação do botão de WhatsApp
 ✅ Sessões organizadas:
 
 Apresentação – Quem sou e tecnologias que utilizo
-
 Habilidades – Hard Skills e Soft Skills com barras de progresso animadas
-
 Formação & Cursos – Graduação e cursos extras
 
 Projetos – Cards com descrição e link direto para o GitHub
 ✅ Botão fixo do WhatsApp com animação para contato rápido
+
+📬 Contato
+
+📧 E-mail: viniciosrp.dev@hotmail.com
+💼 LinkedIn: Vinicios Rosa
+💻 GitHub: ViniciosPereira-dev
