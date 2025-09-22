@@ -8,10 +8,10 @@ O objetivo é compartilhar minha jornada como desenvolvedor e facilitar o contat
 🔗 Acesse o projeto online: Clique aqui
 
 <h2 align="center">📸 Preview do Projeto</h2>
+<p align="center">
   <img src="assets/preview.png" alt="Preview do Projeto" width="500">
-
-
-
+</p>
+  
 🛠️ Tecnologias Utilizadas
 
 HTML5 – Estrutura do site
